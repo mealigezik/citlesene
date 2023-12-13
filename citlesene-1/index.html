@@ -1,0 +1,57 @@
+<!-- <!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cekirdek Yönetim Sistemi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cekirdek Yönetim Sistemi</h1>
+        <div id="kuruyemisciListesi"></div>
+        <div id="sonuclar"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cekirdek Yönetim Sistemi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cekirdek Yönetim Sistemi</h1>
+        <div>
+            <label for="cekirdekKilo">Cekirdek Kilo:</label>
+            <input type="number" id="cekirdekKilo" placeholder="5" required>
+        </div>
+        <div>
+            <label for="cekirdekFiyat">Cekirdek Fiyat (TL/kg):</label>
+            <input type="number" id="cekirdekFiyat" placeholder="10" required>
+        </div>
+        <div>
+            <label for="kuruyemisciAdi">Kuruyemisci Adi:</label>
+            <input type="text" id="kuruyemisciAdi" placeholder="Kuruyemisci1" required>
+        </div>
+        <div>
+            <label for="satilan">Satilan:</label>
+            <input type="number" id="satilan" placeholder="3" required>
+        </div>
+        <button onclick="cekirdekSatisi()">Cekirdek Sat</button>
+        <div id="sonuclar">
+            <h2>Sonuçlar</h2>
+            <p id="toplamKilo">Toplam Satılan Kilo: 0 kg</p>
+            <p id="toplamFiyat">Toplam Kazanç: 0 TL</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
