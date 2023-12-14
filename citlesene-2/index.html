@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cekirdek Dükkanı</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cekirdek Dükkanı</h1>
+        <div class="product">
+            <img src="https://www.citlesene.com.tr/wp-content/uploads/2023/12/citlesene-logo-araba-yan-cephe-1024x512.png" alt="Cekirdek Resmi">
+            <h2>Tuzlu Cekirdek</h2>
+            <p class="price">85 TL/kg</p>
+            <button onclick="sepeteEkle('tuzlu')">Sepete Ekle</button>
+        </div>
+        <div class="product">
+            <img src="https://www.citlesene.com.tr/wp-content/uploads/2023/12/8-Dd44SYt0YdoQMQx.png" alt="Cekirdek Resmi">
+            <h2>Tuzsuz Cekirdek</h2>
+            <p class="price">75 TL/kg</p>
+            <button onclick="sepeteEkle('tuzsuz')">Sepete Ekle</button>
+        </div>
+        <div id="sepet">
+            <h2>Sepet</h2>
+            <ul id="sepetListesi"></ul>
+            <p id="toplamTutar">Toplam Tutar: 0 TL</p>
+            <button onclick="siparisiTamamla()">Siparişi Tamamla</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
