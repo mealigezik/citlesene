@@ -3,7 +3,7 @@ let sepet = [];
 function sepeteEkle(cesit) {
     const urun = {
         cesit: cesit,
-        kilo: 5, // Örnek olarak her ürün 5 kg seciyorum
+        kilo: 5, // Örnek olarak her ürün 5 kg seciyor
         fiyat: cesit === 'tuzlu' ? 85 : 75 // Tuzlu cekirdek 75 TL/kg, tuzsuz cekirdek 85 TL/kg fiyat
     };
 
